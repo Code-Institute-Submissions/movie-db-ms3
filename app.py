@@ -29,7 +29,7 @@ def movie_index():
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
-        existing_user = mongo.db.user.find_one(
+        existing_user = mongo.db.users.find_one(
             {"username": request.form.get("username").lower()})
 
         if existing_user:
@@ -45,6 +45,29 @@ def register():
         flash("Registration successful")
         return redirect(url_for("movie_index"))
     return render_template("register.html")
+
+
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    if request.method == "POST":
+        existing_user = mongo.db.users.find_one(
+            {"username": request.form.get("username").lower()})
+
+        if existing_user:
+            if check_password_hash(
+                    existing_user["password"], request.form.get("password")):
+                session["username"] = request.form.get("username").lower()
+                flash("Hello, {} welcome back".format(
+                        request.form.get("username")))
+            else:
+                flash("Invalid Username and/or Password")
+                return redirect(url_for("login"))
+
+        else:
+            flash("Invalid Username and/or Password")
+            return redirect(url_for("login"))
+
+    return render_template("login.html")
 
 
 if __name__ == "__main__":
