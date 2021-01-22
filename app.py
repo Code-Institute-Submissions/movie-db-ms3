@@ -41,7 +41,7 @@ def register():
             "password": generate_password_hash(request.form.get("password"))
         }
         mongo.db.users.insert_one(register)
-        session["username"] = request.form["username"]
+        session["user"] = request.form["username"]
         flash("Registration successful")
         return redirect(url_for("movie_index"))
     return render_template("register.html")
@@ -56,7 +56,7 @@ def login():
         if existing_user:
             if check_password_hash(
                     existing_user["password"], request.form.get("password")):
-                session["username"] = request.form.get("username").lower()
+                session["user"] = request.form.get("username").lower()
                 flash("Hello, {} welcome back".format(
                         request.form.get("username")))
             else:
@@ -68,6 +68,13 @@ def login():
             return redirect(url_for("login"))
 
     return render_template("login.html")
+
+
+@app.route("/logout")
+def logout():
+    flash("You have successfully logged out")
+    session.pop("user")
+    return redirect(url_for("login"))
 
 
 if __name__ == "__main__":
