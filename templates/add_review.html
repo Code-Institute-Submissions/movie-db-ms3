@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container review-container">
+        <h2 class="white-text center-align">Write A New Review</h2>
+    <div class="container">
+        <div class="row orange darken-4">
+            <form class="col s12" method="POST" action="">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="title" type="text" class="validate">
+                        <label for="title">Movie Title</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="director" type="text" class="validate">
+                        <label for="director">Director</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
