@@ -59,6 +59,7 @@ def login():
                 session["user"] = request.form.get("username").lower()
                 flash("Hello, {} welcome back".format(
                         request.form.get("username")))
+                return redirect(url_for("movie_index"))
             else:
                 flash("Invalid Username and/or Password")
                 return redirect(url_for("login"))
@@ -72,8 +73,8 @@ def login():
 
 @app.route("/logout")
 def logout():
+    session.clear()
     flash("You have successfully logged out")
-    session.pop("user")
     return redirect(url_for("login"))
 
 
