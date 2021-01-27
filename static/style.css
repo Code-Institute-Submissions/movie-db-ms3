@@ -19,10 +19,11 @@
     margin-top: 10px;
     border: 1px solid black;
 }
-/* need to add adaptive design so height 100vh is online on mobile version */
+
 .review-container {
     height: 100vh;
     margin-top: 5vh;
+    margin-bottom: 5vh;
     padding-top: 2vh;
     background-color: #9e9e9e;
     border: 1px solid black;

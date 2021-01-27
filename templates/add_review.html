@@ -5,7 +5,7 @@
         <h2 class="white-text center-align">Write A New Review</h2>
     <div class="container">
         <div class="row orange darken-4">
-            <form class="col s12" method="POST" action="">
+            <form class="col s12" method="POST" action="{{ url_for('add_review')}}">
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="fas fa-film prefix white-text"></i>
@@ -19,7 +19,7 @@
                     </div>
                     <div class="input-field col s12">
                         <i class="fas fa-user-edit prefix white-text"></i>
-                        <textarea id="description" class="materialize-textaread"></textarea>
+                        <textarea id="description" class="materialize-textaread validate" minlength="10" maxlength="500"></textarea>
                         <label for="description">Film Description</label>
                     </div>
                     <div class="input-field col s12">
@@ -34,7 +34,7 @@
                     </div>
                     <div class="col s12 center-align">
                         <button type="submit" class="btn-large grey orange-text darken-2 waves-effect">
-                            Submit <i class="fas fa-pen-fancy prefix orange-text"></i>
+                            Post <i class="fas fa-pen-fancy prefix orange-text"></i>
                         </button>
                     </div>
                 </div>
