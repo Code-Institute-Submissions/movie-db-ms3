@@ -84,10 +84,11 @@ def add_review():
         movie = {
             "movie_title": request.form.get("movie_title"),
             "director": request.form.get("director"),
+            "release_year": request.form.get("release_year"),
             "description": request.form.get("description"),
             "rating": request.form.get("rating"),
-            "release_year": request.form.get("release_year"),
             "user_submitted": session["user"]
+            # How to create a time stamp element?
         }
         mongo.db.movies.insert_one(movie)
         flash("Review Successfully Posted")

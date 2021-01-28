@@ -14,7 +14,7 @@
                 <p class="white-text">{{ movie.release_year }}</p>
                 <p class="white-text">{{ movie.description }}</p>
                 <p class="white-text"><i class="fas fa-star yellow-text"></i>{{ movie.rating }}</p> 
-                <p class="white-text"><em>{{ movie.user_submitted }} {{ movie.date_entered }}</em></p>
+                <p class="white-text"><em>written by: {{ movie.user_submitted }} {{ movie.date_entered }}</em></p>
             </div>
         </div>
         {% endfor %}
