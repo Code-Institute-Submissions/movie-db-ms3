@@ -48,22 +48,15 @@
     font-family: "Josefin Slab", sans-serif;
     color: #c62828;
     text-transform: uppercase;
-    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    text-shadow: 4px 4px 10px rgba(255, 255, 255, 0.4);
+    margin-top: 30vh;
 }
 
 .callout-subheading{
     font-family: "Amatic SC", sans-serif;
     font-size: 550%;
-    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-    margin-bottom: 5vh;
-}
-
-.callout-image{
-    margin-left: 10vw;
-    margin-right: 5vw;
-    width: 80vw;
-    height: 70vh;
-    color: #9e9e9e;
+    text-shadow: 4px 4px 10px rgba(255, 255, 255, 0.4);
+    color: #c62828;
 }
 
 .about-card{
@@ -78,4 +71,26 @@
 .about-content{
     font-family: "Josefin Slab";
     font-size: 200%;
+}
+
+.callout-container{
+    height: 80vh;
+    background: url("/static/cinema-image.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
 }
