@@ -25,10 +25,10 @@
                     <li><a href="{{ url_for('add_review') }}">Write A Review</a></li>
                     <li><a href="#">Edit Review</a></li>
                     <li><a href="{{ url_for('logout') }}">Logout</a></li>
-                    {% endif %}
-                    <!-- How to not display when logged in? -->
+                    {% else %}
                     <li><a href="{{ url_for('login') }}">Login</a></li>
                     <li><a href="{{ url_for('register') }}">Register</a></li>
+                    {% endif %}
                 </ul>
             </div>
         </nav>
@@ -41,9 +41,10 @@
     <li><a href="{{ url_for('add_review') }}">Write A Review</a></li>
     <li><a href="#">Edit Review</a></li>
     <li><a href="{{ url_for('logout') }}">Logout</a></li>
-    {% endif %}
+    {% else %}
     <li><a href="{{ url_for('login') }}">Login</a></li>
     <li><a href="{{ url_for('register') }}">Register</a></li>
+    {% endif %}
   </ul>
 
     </header>
