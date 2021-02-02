@@ -58,7 +58,7 @@ def login():
             if check_password_hash(
                     existing_user["password"], request.form.get("password")):
                 session["user"] = request.form.get("username").lower()
-                flash("Hello, {} welcome back".format(
+                flash("Hello, {} Welcome Back".format(
                         request.form.get("username")))
                 return redirect(url_for("movie_index"))
             else:
@@ -75,7 +75,7 @@ def login():
 @app.route("/logout")
 def logout():
     session.clear()
-    flash("You have successfully logged out")
+    flash("You Have Successfully Logged Out")
     return redirect(url_for("login"))
 
 
@@ -105,8 +105,21 @@ def about():
 
 @app.route("/edit_review/<movie_id>", methods=["GET", "POST"])
 def edit_review(movie_id):
-    movie = mongo.db.movies.find_one({"_id": ObjectId(movie_id)})
+    if request.method == "POST":
+        change = {
+            "movie_title": request.form.get("movie_title"),
+            "director": request.form.get("director"),
+            "release_year": request.form.get("release_year"),
+            "description": request.form.get("description"),
+            "rating": request.form.get("rating"),
+            "user_submitted": session["user"],
+            "date_submitted": datetime.now()
+        }
+        mongo.db.movies.update({"_id": ObjectId(movie_id)}, change)
+        flash("Review Changes Saved Successfully")
+        return redirect(url_for("movie_index"))
 
+    movie = mongo.db.movies.find_one({"_id": ObjectId(movie_id)})
     return render_template("edit_review.html", movie=movie)
 
 
