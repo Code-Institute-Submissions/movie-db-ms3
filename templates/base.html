@@ -23,7 +23,6 @@
                     <li><a href="{{ url_for('about') }}">About</a></li>
                     {% if session.user %}
                     <li><a href="{{ url_for('add_review') }}">Write A Review</a></li>
-                    <li><a href="#">Edit Review</a></li>
                     <li><a href="{{ url_for('logout') }}">Logout</a></li>
                     {% else %}
                     <li><a href="{{ url_for('login') }}">Login</a></li>
@@ -39,7 +38,6 @@
     <li><a href="{{ url_for('about') }}">About</a></li>
     {% if session.user %}
     <li><a href="{{ url_for('add_review') }}">Write A Review</a></li>
-    <li><a href="#">Edit Review</a></li>
     <li><a href="{{ url_for('logout') }}">Logout</a></li>
     {% else %}
     <li><a href="{{ url_for('login') }}">Login</a></li>
