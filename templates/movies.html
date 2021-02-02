@@ -20,6 +20,8 @@
                 <p class="white-text">{{ movie.description }}</p>
                 <p class="white-text"><i class="fas fa-star yellow-text"></i>{{ movie.rating }}</p> 
                 <p class="white-text"><em>written by: {{ movie.user_submitted }} {{ movie.date_submitted }}</em></p>
+                <a href="{{ url_for('edit_review', movie_id=movie._id)}}" class="btn-small grey darken-3 waves-effect">Edit</a>
+                <a href="" class="btn-small red darken-3 waves-effect">Delete</a>
             </div>
         </div>
         {% endfor %}
