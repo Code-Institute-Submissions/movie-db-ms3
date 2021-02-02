@@ -5,6 +5,7 @@ from flask import (
 from flask_pymongo import PyMongo
 from werkzeug.security import generate_password_hash, check_password_hash
 from bson.objectid import ObjectId
+from datetime import datetime
 if os.path.exists("env.py"):
     import env
 
@@ -87,8 +88,8 @@ def add_review():
             "release_year": request.form.get("release_year"),
             "description": request.form.get("description"),
             "rating": request.form.get("rating"),
-            "user_submitted": session["user"]
-            # How to create a time stamp element?
+            "user_submitted": session["user"],
+            "date_submitted": datetime.now()
         }
         mongo.db.movies.insert_one(movie)
         flash("Review Successfully Posted")
