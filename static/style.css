@@ -94,3 +94,8 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
 }
+
+.search-style{
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
