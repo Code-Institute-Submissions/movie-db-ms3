@@ -33,6 +33,7 @@ def search():
     movies = mongo.db.movies.find({"$text": {"$search": query}})
     return render_template("movies.html", movies=movies)
 
+
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
