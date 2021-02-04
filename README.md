@@ -1,45 +1,19 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Projected-Reviews-ms3
 
-Welcome RDGrover,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## UX
 
-## Gitpod Reminders
+### 1.1 Overview
+* This project was started with the idea of introducing a wider audiences to movies they may not have heard of or seen before. I have always had a passion for films and wanted to try and share my own personal experiences with movies that other users may not have seen. I like the idea of a group of like-minded people supplying their own experiences to create a community introducing each other to their favourite, or least favourite movies. The simple design makes the information easy to read without being overwhelmed by lots of graphics and colours.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### 1.2 Project Goals
+* I wanted to create a simple website that was focused on the films and the user's own experiences with those films. The simple colour scheme relies on a mostly grey and red as an homage to the colours of my own local cinema that I visit often. The website is designed to allow users to post a review of whatever movie they like, even if that movie has already been reviewed by another user. This allows the website to constantly evolve and change dependant on who is using it.
 
-`python3 -m http.server`
+### 1.3 User Goals
+* A user would want a simple intuitive design that is easy to navigate and pleasant to look at.
+* A user would want a simple form to help them write their reviews in a structured way.
+* A user would want to be able to post their review immediately for others to view.
+* A user would want to be able to change their review at any time should their opinions change.
+* A user would want to be able to remove their own reviews at any time.
 
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+### 1.4 Colour Scheme
