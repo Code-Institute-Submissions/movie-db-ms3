@@ -94,6 +94,7 @@ def add_review():
             "release_year": request.form.get("release_year"),
             "description": request.form.get("description"),
             "rating": request.form.get("rating"),
+            "user_review": request.form.get("user_review"),
             "user_submitted": session["user"],
             "date_submitted": datetime.now()
         }
@@ -118,6 +119,7 @@ def edit_review(movie_id):
             "release_year": request.form.get("release_year"),
             "description": request.form.get("description"),
             "rating": request.form.get("rating"),
+            "user_review": request.form.get("user_review"),
             "user_submitted": session["user"],
             "date_submitted": datetime.now()
         }
