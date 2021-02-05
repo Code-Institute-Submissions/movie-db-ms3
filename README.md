@@ -68,5 +68,19 @@
 
 * Editing and deleting reviews will only be available to the user who is logged in and other users will not be able to change others reviews.
 
+## Technology Used
 
-  
+* HTML5 - The project templates are all created using HTML.
+* CSS3 - The project uses CSS to style the HTML elements.
+* JavaScript - The project uses JavaScript for mobile sidenav and delete confim window.
+* Python
+* Flask
+* Google Fonts
+* Materialize 
+* Font Awesome
+* GitHub
+* GitPod
+* Git
+
+
+
