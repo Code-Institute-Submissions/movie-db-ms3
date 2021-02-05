@@ -17,3 +17,21 @@
 * A user would want to be able to remove their own reviews at any time.
 
 ### 1.4 Colour Scheme
+* #9e9e9e - Navbar, Review Cards, Container around Login, Register, Write Review and Edit Review
+* #616161 - Search Button
+* #424242 - Edit button on user's review
+* #c62828 - Delete button on user's review, Flash Messages, Callout heading and subheading, About heading, Join Our Community button, Login card, Register card, Register Here button, Login Here button
+* #b71c1c - Write A Review form
+* #d32f2f - Search Icon, reset button on Search function
+* #ffeb3b - Rating stars
+* #ffffff - All button text, most font awesome icons, nav text, write/edit review text 
+* rgba(158,158,158, 0.4 - About Container
+
+* Logo Colours:
+  * #ffffff - Background and buttons
+  * #fce464 - Light colour and button on projector
+  * #000000 - Border and lens
+  * #8c8c8c - Main body of projector
+  
+  
+  
