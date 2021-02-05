@@ -52,4 +52,21 @@
 
 * If user already has an account they can login using their already registered username and password. The user can then logout which will clear their session cookie and take the website back to before you were logged in.
 
+### 2.5 Write A Review
+
+* The user can navigate to a form which will allow them to create a new review and post it to the database to be displayed on the website. Two of the fields are number fields the rest are text or textarea fields.
+
+### 2.6 Edit A Review
+
+* A button will be present on all reviews written by the logged in user which allows the user to edit their reviews. The button will redirect the user to another form with the same fields as the Write A Review form already filled with the pre-existing inputs, these can be easily changed and the updated versions can then be save to the database.
+
+### 2.7 Delete A Review
+
+* A button will also appear on the users reviews to allow the user to remove their own reviews when logged in. When you click on the delete button you are asked to confirm if you are sure you want to delete the review before it will be removed.
+
+### 2.8 Login Check
+
+* Editing and deleting reviews will only be available to the user who is logged in and other users will not be able to change others reviews.
+
+
   
