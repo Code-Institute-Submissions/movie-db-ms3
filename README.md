@@ -70,17 +70,19 @@
 
 ## Technology Used
 
-* HTML5 - The project templates are all created using HTML.
+* HTML5 - The project uses templates are all created using HTML.
 * CSS3 - The project uses CSS to style the HTML elements.
 * JavaScript - The project uses JavaScript for mobile sidenav and delete confim window.
-* Python
-* Flask
-* Google Fonts
-* Materialize 
-* Font Awesome
-* GitHub
-* GitPod
-* Git
-
+* Python - The project uses Python to run the application.
+* Flask - The project uses Flask as a framework.
+* Jinja - The project uses Jinja as the programming language.
+* MongoDB - The project uses MongoDB to host its database.
+* Google Fonts - The project uses Google Fonts for the headings and subheadings in the project.
+* Materialize - The project uses Materialize as a framework for layout and responsive elements.
+* Font Awesome - The project uses Font Awesome icons to help illustrate certain functions throughout the project.
+* GitHub - The project uses GitHub repository to store the project and for version control.
+* GitPod - The project uses GitPod as a terminal to build the website.
+* Git - The project uses Git to save the project and push the project into the GitHub repository.
+* Heroku - The project application is deployed using Heroku.
 
 
