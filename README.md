@@ -17,15 +17,16 @@
 * A user would want to be able to remove their own reviews at any time.
 
 ### 1.4 Colour Scheme
-* #9e9e9e - Navbar, Review Cards, Container around Login, Register, Write Review and Edit Review
-* #616161 - Search Button
-* #424242 - Edit button on user's review
-* #c62828 - Delete button on user's review, Flash Messages, Callout heading and subheading, About heading, Join Our Community button, Login card, Register card, Register Here button, Login Here button
-* #b71c1c - Write A Review form
-* #d32f2f - Search Icon, reset button on Search function
-* #ffeb3b - Rating stars
-* #ffffff - All button text, most font awesome icons, nav text, write/edit review text 
-* rgba(158,158,158, 0.4 - About Container
+* Website Colours:
+ * #9e9e9e - Navbar, Review Cards, Container around Login, Register, Write Review and Edit Review
+ * #616161 - Search Button
+ * #424242 - Edit button on user's review
+ * #c62828 - Delete button on user's review, Flash Messages, Callout heading and subheading, About heading, Join Our Community button, Login card, Register card, Register Here button, Login Here button
+ * #b71c1c - Write A Review form
+ * #d32f2f - Search Icon, reset button on Search function
+ * #ffeb3b - Rating stars
+ * #ffffff - All button text, most font awesome icons, nav text, write/edit review text 
+ * rgba(158,158,158, 0.4 - About Container
 
 * Logo Colours:
   * #ffffff - Background and buttons
@@ -33,5 +34,22 @@
   * #000000 - Border and lens
   * #8c8c8c - Main body of projector
   
+## Features
   
+### 2.1 Navigation Bar
+  
+* A bar at the top of the website that helps to easily navigate between the pages. All pages have the same navigation bar to maintain consistance appearance. The navbar has some elements that can only be seen dependant on whether or not the user is logged in. When not logged in the navbar will show 'Login' and 'Register', when logged in these will be replaced by 'Write A Review' and 'Logout'.
+  
+### 2.2 Search Bar
+  
+* A search function at the top of the home page which allows the user to search for a film by its title or by its directors name.
+
+### 2.3 User Registration and Authentication
+
+* Users are able to create an account provided the username does not already exist. A flash message will appear to inform the user if their selected username is unavailable.
+
+### 2.4 Login and Logout Functionality
+
+* If user already has an account they can login using their already registered username and password. The user can then logout which will clear their session cookie and take the website back to before you were logged in.
+
   
