@@ -85,4 +85,30 @@
 * Git - The project uses Git to save the project and push the project into the GitHub repository.
 * Heroku - The project application is deployed using Heroku.
 
+## Deployment
+
+This project was coded using Git and GitPod, the following steps were made to save code and add it to GitHub repository:
+ 1. Use git add to move code from the workspace to staging area.
+ 1. Use git commit to save files to a local repository with a message to say what has been changed since previous commit.
+ 1. Use git push to move the files from a local repository to a remote repository like GitHub.
+
+To deploy this page to Heroku from its [GitHub repository](https://github.com/RDGrover/movie-db-ms3), the following steps were taken:
+ 1. Go to the **Heroku Dashboard** and create a **New App** with the region set to **Europe**.
+ 1. In the **Settings** tab of your app click **Reveal Config Vars**.
+ 1. Enter the required environment variables, **IP**, **PORT** and **MONGO_URI**.
+ 1. In your IDE of choice create a **env.py** containing the **MONGO_URI** and add it to the **.gitignore**.
+ 1. In your IDE of choice create a **requirements.txt** by using the command **pip freeze -local > requirements.txt**.
+ 1. In your IDE of choice create a **Profile** by using the command **echo web: python app.py > Procfile**.
+ 1. Go to the **Deploy** tab and select **Heroku Git**.
+ 1. In your IDE of choice use the command **git push heroku master**.
+
+Note: The [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) will need to have been downloaded and installed to push from command line.
+
+To deploy locally use the following steps:
+ 1. Go to [GitHub repository](https://github.com/RDGrover/movie-db-ms3)
+ 1. Click the **Clone** or **Download** button and copy the URL into the address box https://github.com/RDGrover/movie-db-ms3.git
+ 1. Open your terminal and cd to the path where you want to run the clone of the repository.
+ 1. Type into the terminal git clone https://github.com/RDGrover/movie-db-ms3.git.
+ 1. Once the repository has been downloaded to the designated folder, you can run the files through the browser to check if it is working.
+
 
