@@ -2,6 +2,11 @@
 
 .logo-styling {
     padding-left: 15px;
+    height: 55px;
+}
+
+.register-title{
+    font-size: 300%;
 }
 
 .register-container {
@@ -22,7 +27,7 @@
 }
 
 .review-container {
-    height: 100vh;
+    height: 120vh;
     margin-top: 15vh;
     margin-bottom: 5vh;
     padding-top: 2vh;
@@ -49,7 +54,7 @@
     color: #c62828;
     text-transform: uppercase;
     text-shadow: 4px 4px 10px rgba(255, 255, 255, 0.4);
-    margin-top: 30vh;
+    margin-top: 15vh;
 }
 
 .callout-subheading{
@@ -61,7 +66,7 @@
 
 .about-card{
     padding: 30px;
-    width: 100vh;
+    width: 100vw;
     margin-bottom: 25px;
     margin-top: 10px;
     border: 1px solid black;
@@ -96,6 +101,27 @@
 }
 
 .search-style{
-    margin-left: 15vw;
+    margin-left: 5vw;
     margin-right: 15vw;
+}
+
+@media(min-width: 992px){
+    .search-style{
+        margin-left: 15vw;
+    }
+    .about-card{
+        width: 80vw;
+    }
+    .callout{
+        margin-top: 30vh;
+    }
+}
+
+@media(min-width: 601px){
+    .logo-styling{
+        height: 65px;
+    }
+    .register-title{
+        font-size: 400%;
+    }
 }

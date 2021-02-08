@@ -3,5 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let sidenavsInstance = M.Sidenav.init(sidenavs, {edge: "right"});
 })
 function remove(){
-    confirm("Are you sure you want to delete your review?")
+    if(confirm("Are you sure you want to delete your review?")){
+        delete_one();
+    }
 }    
