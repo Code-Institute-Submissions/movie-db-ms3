@@ -79,6 +79,10 @@
 
 * Editing and deleting reviews will only be available to the user who is logged in and other users will not be able to change others reviews.
 
+### 2.9 Known Bugs
+
+* The window.confirm() that asks for confirmation when deleting a review does not cancel even if you press cancel.
+
 ## Technology Used
 
 * HTML5 - The project uses templates are all created using HTML.
