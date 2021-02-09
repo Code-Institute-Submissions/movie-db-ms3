@@ -101,6 +101,10 @@
 * Git - The project uses Git to save the project and push the project into the GitHub repository.
 * Heroku - The project application is deployed using Heroku.
 
+## Testing
+
+Testing is documented in separate file - [testing.md](/testing.md)
+
 ## Deployment
 
 This project was coded using Git and GitPod, the following steps were made to save code and add it to GitHub repository:
