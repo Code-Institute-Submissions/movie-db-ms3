@@ -1,8 +1,8 @@
 # Testing 
 
-# User Story Testing
+## User Story Testing
 
-## As a new user I would like reviews to be available to view without having to register or login.
+### As a new user I would like reviews to be available to view without having to register or login.
 
 1. As soon as the website is opened the homepage that is displayed contains all reviews currently published on the site.
 1. No registration or login is required to see these reviews.
@@ -14,7 +14,7 @@ Steps Taken:
 * Observe that all reviews are visible despite not being registered or logged in.
 
 
-## As a new user I would like information about the website to be readily available and easy to read.
+### As a new user I would like information about the website to be readily available and easy to read.
 
 1. In the Navbar present across all templates allows you to navigate to the about.html template.
 1. Once clicked the website will render the template and display information about the website.
@@ -25,7 +25,7 @@ Steps Taken:
 * Click the About link.
 * Observe the new About page render.
 
-## As a new user I would like to be able to search and see if a review has been written about a certain movie.
+### As a new user I would like to be able to search and see if a review has been written about a certain movie.
 
 1. At the top of the review homepage there is a searchbar.
 1. Entering in the title of a movie and pressing the search button will reload the review page.
@@ -40,7 +40,7 @@ Steps Taken:
 * Press the reset button beneath the searchbar to reload and display all reviews.
 * Observe all reviews being displayed once again.
 
-## As a new user I would like to be able to search and see if a review has been written about a movie by a certain director.
+### As a new user I would like to be able to search and see if a review has been written about a movie by a certain director.
 
 1. At the top of the review homepage there is a searchbar.
 1. Enter the first name, surname or fullname of the desired director and press the search button which will reload the page.
@@ -55,7 +55,7 @@ Steps Taken:
 * Press the reset button beneath the searchbar to reload and display all reviews.
 * Observe all reviews being displayed once again.
 
-## As a new user I would like to be able to write a new review.
+### As a new user I would like to be able to write a new review.
 
 1. In the Navbar there is a link which allows you to 'Write A Review'.
 1. If this button is not displayed then the user either needs to login or register.
@@ -72,7 +72,7 @@ Steps Taken:
 * Click 'Post' button.
 * Observe the website navigating you back to the reviews page now featuring the new review.
 
-## As a new user I would like to see that only I am able to edit my own reviews.
+### As a new user I would like to see that only I am able to edit my own reviews.
 
 1. Must be logged into an account that has posted reviews already.
 1. On the reviews page there will be a button displayed at the bottom of that user's already posted reviews labelled 'edit'.
@@ -90,7 +90,7 @@ Steps Taken:
 * Click save changes or cancel to return to the reviews screen without changing any of the form.
 * Observe the reviews page load with any changes made now being displayed.
 
-## As a new user I would like to be able to delete any of my reviews.
+### As a new user I would like to be able to delete any of my reviews.
 
 1. Must be logged into an account that has already posted reviews already.
 1. On the reviews page there will be a button displayed at the bottom of that user's already posted reviews labelled 'delete'.
@@ -104,3 +104,17 @@ Steps Taken:
 * Observe the delete button beneath those reviews.
 * Click the button and observe a window asking if you are sure you want to delete your review.
 * Selecting ok will remove the review.
+
+## Technology Testing
+
+### Devices Compatibility
+
+* Lenovo Yoga 300
+    * This device was used to test as a laptop and a tablet.
+    
+* iPhone 7
+    * This device was used to test on a mobile device.
+
+
+
+
