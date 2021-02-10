@@ -144,12 +144,12 @@ I used W3 to check my HTML and CSS code to ensure there were no issues. These ar
 
 1. Go to repository https://github.com/RDGrover/movie-db-ms3.
 1. Open **static** folder.
-1. Click on the **game.js** file and you should see the Javascript code.
+1. Click on the **script.js** file and you should see the Javascript code.
 1. Highlight and copy all the code.
 1. Open URL https://jshint.com/.
 1. Paste the copied code into the window where instructed.
 1. Confirm that there are no errors.
 
-![JavaScript validator screenshot](/static/screenshots/css-screenshot.png)
+![JavaScript validator screenshot](/static/screenshots/javascript-screenshot.png)
 
 
