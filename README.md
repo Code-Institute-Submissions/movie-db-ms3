@@ -2,7 +2,7 @@
 
 [Live website link here](https://movie-rating-project.herokuapp.com/)
 
-![Website displayed on multiple devices](https://github.com/RDGrover/movie-db-ms3/blob/master/static/multi-device-movies.png)
+![Website displayed on multiple devices](/static/screenshots/multi-device-movies.png)
 
 ## UX
 
