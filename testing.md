@@ -115,6 +115,41 @@ Steps Taken:
 * iPhone 7
     * This device was used to test on a mobile device.
 
+## Automated Tests
 
+I used W3 to check my HTML and CSS code to ensure there were no issues. These are the steps I took:
+
+#### For HTML code
+1. Go to https://validator.w3.org.
+1. Enter the following url https://movie-rating-project.herokuapp.com/movie_index into the check by address bar and click **Check**.
+1. Confirm there are no errors or warnings.
+1. Repeat process for url https://movie-rating-project.herokuapp.com/about, https://movie-rating-project.herokuapp.com/add_review, https://movie-rating-project.herokuapp.com/login, https://movie-rating-project.herokuapp.com/register
+
+![HTML validator screenshots](/static/screenshots/movie_index-screenshot.png)
+![HTML validator screenshots](/static/screenshots/about-screenshot.png)
+![HTML validator screenshots](/static/screenshots/add_review-screenshot.png)
+![HTML validator screenshots](/static/screenshots/register-screenshot.png)
+![HTML validator screenshots](/static/screenshots/login-screenshot.png)
+
+#### For CSS code
+1. Go to https://jigsaw.w3.org/css-validator/.
+1. Go to repository https://github.com/RDGrover/movie-db-ms3.
+1. Open **static** folder.
+1. Copy the code from the style.css file and paste into by direct input section and click **Check**.
+1. Confirm there are no errors or warnings.
+
+![CSS validator screenshot](/static/screenshots/css-screenshot.png)
+
+#### For JavaScript code
+
+1. Go to repository https://github.com/RDGrover/movie-db-ms3.
+1. Open **static** folder.
+1. Click on the **game.js** file and you should see the Javascript code.
+1. Highlight and copy all the code.
+1. Open URL https://jshint.com/.
+1. Paste the copied code into the window where instructed.
+1. Confirm that there are no errors.
+
+![JavaScript validator screenshot](/static/screenshots/css-screenshot.png)
 
 
