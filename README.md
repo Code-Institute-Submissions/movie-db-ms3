@@ -1,5 +1,8 @@
 # Projected-Reviews-ms3
 
+[Live website link here](https://movie-rating-project.herokuapp.com/)
+
+![Website displayed on multiple devices](/static/screenshots/multi-device-movies.png)
 
 ## UX
 
@@ -79,6 +82,10 @@
 
 * Editing and deleting reviews will only be available to the user who is logged in and other users will not be able to change others reviews.
 
+### 2.9 Known Bugs
+
+* The window.confirm() that asks for confirmation when deleting a review does not cancel even if you press cancel.
+
 ## Technology Used
 
 * HTML5 - The project uses templates are all created using HTML.
@@ -95,6 +102,10 @@
 * GitPod - The project uses GitPod as a terminal to build the website.
 * Git - The project uses Git to save the project and push the project into the GitHub repository.
 * Heroku - The project application is deployed using Heroku.
+
+## Testing
+
+Testing is documented in separate file - [testing.md](/testing.md)
 
 ## Deployment
 
