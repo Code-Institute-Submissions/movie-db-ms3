@@ -2,11 +2,13 @@
 {% block content %}
 
     <div class="container register-container">
-                <h1 class="white-text center-align">Log In</h1>
+            <!-- Heading -->
+            <h1 class="white-text center-align">Log In</h1>
         <div class="container valign-wrapper">
             <div class="row red darken-3 register-card">
                 <form class="col s12" method="POST" action="{{ url_for('login') }}">
                     <div class="row">
+                        <!-- Input for username -->
                         <div class="input-field col s12">
                             <i class="far fa-user prefix white-text"></i>
                             <input id="username" name="username" type="text" minlength="5" 
@@ -15,6 +17,7 @@
                         </div>
                     </div>
                     <div class="row">
+                        <!-- Input for password -->
                         <div class="input-field col s12">
                             <i class="fas fa-unlock prefix white-text"></i>
                             <input id="password" name="password" type="password" minlength="5" 
@@ -23,6 +26,7 @@
                         </div>
                     </div>
                     <div class="row">
+                        <!-- Login button -->
                         <button type="submit" class="col s12 btn-large white red-text text-darken-4">
                             Log In <i class="fas fa-sign-in-alt prefix"></i>
                         </button>
@@ -30,6 +34,7 @@
                 </form>
             </div>
         </div>
+        <!-- Link to register page -->
         <div class="row">
             <h5 class="white-text center-align">Don't have an account? <a href="{{url_for('register')}}" class="btn red darken-3 waves-effect">Register here</a></h5>
         </div>

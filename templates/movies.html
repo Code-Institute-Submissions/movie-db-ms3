@@ -2,13 +2,15 @@
 {% block content %}
 
 
-
+<!-- Displays background image -->
 <div class="callout-container">
     <div class="opaque-overlay">
+        <!-- Heading -->
         <h2 class="center-align callout">Welcome to Projected Reviews</h2>
         <h3 class="center-align callout-subheading">Discover a new world of cinema</h3>
     </div>
 </div>
+<!-- Search Bar -->
 <div class="container center-align row card-panel search-style">
     <form action="{{ url_for('search') }}" method="POST" class="col s12">
         <div class="row valign-wrapper center-align">
@@ -25,6 +27,7 @@
     </form>
 </div>
     <div class="container">
+        <!-- Displays movie reviews from database -->
         <div class="row center-align">
             {% for movie in movies %}
             <div class="col s12 m6 l4">
@@ -36,8 +39,11 @@
                     <p class="white-text"><i class="fas fa-star yellow-text"></i>{{ movie.rating }}</p>
                     <p class="white-text">{{ movie.user_review }}</p> 
                     <p class="white-text"><em>written by: {{ movie.user_submitted }} {{ movie.date_submitted }}</em></p>
+                    <!-- Only displayed if session matches user_submitted -->
                     {% if session.user|lower == movie.user_submitted|lower %}
+                    <!-- Edit button -->
                     <a href="{{ url_for('edit_review', movie_id=movie._id)}}" class="btn-small grey darken-3 waves-effect">Edit</a>
+                    <!-- Delete button -->
                     <a onclick="remove()" class="btn-small red darken-3 waves-effect modal-trigger" href="{{ url_for('delete_review', movie_id=movie._id) }}">Delete</a>
                     {% endif %}  
                 </div>
