@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC:100,200,300,400,500,600,700|Josefin+Slab:100,200,300,400,500,600,700");
 
+/* Navbar styling */
+
 .logo-styling {
     padding-left: 15px;
     height: 55px;
 }
+
+/* Register styling */
 
 .register-title{
     font-size: 300%;
@@ -26,6 +30,8 @@
     border: 1px solid black;
 }
 
+/* Movies styling */
+
 .review-container {
     height: 120vh;
     margin-top: 15vh;
@@ -40,42 +46,6 @@
     height: 90vh;
     margin-top: 2vh;
     background-color: #9e9e9e;
-}
-
-.flash-card {
-    margin-right: 15vw;
-    margin-left: 15vw;
-    padding-bottom: 2px;
-    background-color: #c62828;
-}
-
-.callout {
-    font-family: "Josefin Slab", sans-serif;
-    color: #c62828;
-    text-transform: uppercase;
-    text-shadow: 4px 4px 10px rgba(255, 255, 255, 0.4);
-    margin-top: 15vh;
-}
-
-.callout-subheading{
-    font-family: "Amatic SC", sans-serif;
-    font-size: 550%;
-    text-shadow: 4px 4px 10px rgba(255, 255, 255, 0.4);
-    color: #c62828;
-}
-
-.about-card{
-    padding: 30px;
-    width: 100vw;
-    margin-bottom: 25px;
-    margin-top: 10px;
-    border: 1px solid black;
-    background-color: rgba(158, 158, 158, 0.4);
-}
-
-.about-content{
-    font-family: "Josefin Slab";
-    font-size: 200%;
 }
 
 .callout-container{
@@ -104,6 +74,48 @@
     margin-left: 5vw;
     margin-right: 15vw;
 }
+
+/* Base template styling */
+
+.flash-card {
+    margin-right: 15vw;
+    margin-left: 15vw;
+    padding-bottom: 2px;
+    background-color: #c62828;
+}
+
+.callout {
+    font-family: "Josefin Slab", sans-serif;
+    color: #c62828;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 10px rgba(255, 255, 255, 0.4);
+    margin-top: 15vh;
+}
+
+.callout-subheading{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 550%;
+    text-shadow: 4px 4px 10px rgba(255, 255, 255, 0.4);
+    color: #c62828;
+}
+
+/* About styling */
+
+.about-card{
+    padding: 30px;
+    width: 100vw;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: rgba(158, 158, 158, 0.4);
+}
+
+.about-content{
+    font-family: "Josefin Slab";
+    font-size: 200%;
+}
+
+/* Resizing styling */
 
 @media(min-width: 992px){
     .search-style{
