@@ -52,7 +52,7 @@
   
 ### 2.1 Navigation Bar
   
-* A bar at the top of the website that helps to easily navigate between the pages. All pages have the same navigation bar to maintain consistance appearance. The navbar has some elements that can only be seen dependant on whether or not the user is logged in. When not logged in the navbar will show 'Login' and 'Register', when logged in these will be replaced by 'Write A Review' and 'Logout'.
+* A bar at the top of the website that helps to easily navigate between the pages. All pages have the same navigation bar to maintain a consistant appearance. The navbar has some elements that can only be seen dependant on whether or not the user is logged in. When not logged in the navbar will show 'Login' and 'Register', when logged in these will be replaced by 'Write A Review' and 'Logout'.
   
 ### 2.2 Search Bar
   
@@ -90,7 +90,7 @@
 
 * HTML5 - The project uses templates are all created using HTML.
 * CSS3 - The project uses CSS to style the HTML elements.
-* JavaScript - The project uses JavaScript for mobile sidenav and delete confim window.
+* JavaScript - The project uses JavaScript for mobile sidenav and delete confirm window.
 * Python - The project uses Python to run the application.
 * Flask - The project uses Flask as a framework.
 * Jinja - The project uses Jinja as the programming language.
